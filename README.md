@@ -40,7 +40,7 @@ Occupied cells form a graph under 4- or 8-neighbor adjacency. If connected-compo
 
 `P_inf(q,t) = max_i S_i / sum_i S_i`.
 
-The project also evaluates connected-component counts, normalized cluster entropy, a Simpson-style fragmentation index, and boundary/edge-density diagnostics. Physical component areas are corrected for polar-stereographic map distortion.
+The project also evaluates connected-component counts, finite-cluster susceptibility, normalized cluster entropy, a Simpson-style fragmentation index, and boundary/edge-density diagnostics. Physical component areas are corrected for polar-stereographic map distortion.
 
 ## Repository structure
 
@@ -60,7 +60,7 @@ Sea-Ice-Modeling/
 │   ├── edge_density_by_threshold.svg
 │   └── upper_tail_quantization.svg
 └── paper/
-    └── sea_ice_connectivity_paper.tex
+    └── sea_ice_connectivity_paper.md
 ```
 
 ## Reproduce the analysis
@@ -83,7 +83,7 @@ Primary data source: NOAA/NSIDC Climate Data Record of Passive Microwave Sea Ice
 
 **Connectivity and Fragmentation of Arctic Sea Ice in Satellite Concentration Fields**
 
-The paper source is in `paper/sea_ice_connectivity_paper.tex`. A compiled PDF is provided separately as `sea_ice_connectivity_paper.pdf`.
+The mathematical paper source is in `paper/sea_ice_connectivity_paper.md`. The compiled paper is named `sea_ice_connectivity_paper.pdf` — no “expanded” suffix.
 
 ## Scope
 
